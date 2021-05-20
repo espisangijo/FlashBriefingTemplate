@@ -14,15 +14,6 @@
                   "updateFrequency": "DAILY",
                   "url": "https://flash-briefing-00002.herokuapp.com/",
                   "vuiPreamble": "From Delight Flash Briefing"
-                },
-                {
-                  "contentType": "TEXT",
-                  "genre": "HEADLINE_NEWS",
-                  "isDefault": false,
-                  "name": "Delight Create Flash Briefing 2",
-                  "updateFrequency": "HOURLY",
-                  "url": "https://flash-briefing-00002.herokuapp.com/flash-briefing-2",
-                  "vuiPreamble": "From Delight Flash Briefing 2"
                 }
               ]
             }

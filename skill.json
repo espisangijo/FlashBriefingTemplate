@@ -14,15 +14,6 @@
                   "updateFrequency": "<UPDATE_FREQUENCY> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#updateFrequency-enumeration",
                   "url": "<FEED_URL_JSON_OR_RSS> ",
                   "vuiPreamble": "<PREAMBLE>"
-                },
-                {
-                  "contentType": "<TYPE> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#contentType-enumeration",
-                  "genre": "<GENRE> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#contentGenre-enumeration",
-                  "isDefault": false,
-                  "name": "<NAME>",
-                  "updateFrequency": "<UPDATE_FREQUENCY> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#updateFrequency-enumeration",
-                  "url": "<FEED_URL_JSON_OR_RSS> ",
-                  "vuiPreamble": "<PREAMBLE>"
                 }
               ]
             }
