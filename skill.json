@@ -1,0 +1,61 @@
+{
+    "manifest": {
+      "apis": {
+        "flashBriefing": {
+          "locales": {
+            "en-US": {
+              "customErrorMessage": "<CUSTOM_ERROR_MESSAGE>",
+              "feeds": [
+                {
+                  "contentType": "<TYPE> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#contentType-enumeration",
+                  "genre": "<GENRE> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#contentGenre-enumeration",
+                  "isDefault": true,
+                  "name": "<NAME>",
+                  "updateFrequency": "<UPDATE_FREQUENCY> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#updateFrequency-enumeration",
+                  "url": "<FEED_URL_JSON_OR_RSS> ",
+                  "vuiPreamble": "<PREAMBLE>"
+                },
+                {
+                  "contentType": "<TYPE> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#contentType-enumeration",
+                  "genre": "<GENRE> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#contentGenre-enumeration",
+                  "isDefault": false,
+                  "name": "<NAME>",
+                  "updateFrequency": "<UPDATE_FREQUENCY> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#updateFrequency-enumeration",
+                  "url": "<FEED_URL_JSON_OR_RSS> ",
+                  "vuiPreamble": "<PREAMBLE>"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "manifestVersion": "1.0",
+      "privacyAndCompliance": {
+        "locales": {
+          "en-US": {}
+        }
+      },
+      "publishingInformation": {
+        "automaticDistribution": {
+          "isActive": false
+        },
+        "category": "<CATEGORY> https://developer.amazon.com/en-US/docs/alexa/smapi/skill-manifest.html#category-enum",
+        "distributionCountries": [],
+        "isAvailableWorldwide": true,
+        "locales": {
+          "en-US": {
+            "examplePhrases": [
+              "<INVOKE PHRASE>",
+              "<INVOKE PHRASE>"
+            ],
+            "keywords": [],
+            "largeIconUri": "<IMAGE_URI>",
+            "name": "<SKILL_NAME>",
+            "smallIconUri": "<IMAGE_URI>",
+            "summary": "<SUMMARY>"
+          }
+        }
+      }
+    }
+  }
+  

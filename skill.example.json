@@ -1,0 +1,61 @@
+{
+    "manifest": {
+      "apis": {
+        "flashBriefing": {
+          "locales": {
+            "en-US": {
+              "customErrorMessage": "Sorry, flash briefing is not available right now. Please try again later.",
+              "feeds": [
+                {
+                  "contentType": "TEXT",
+                  "genre": "HEADLINE_NEWS",
+                  "isDefault": true,
+                  "name": "Delight Create Flash Briefing",
+                  "updateFrequency": "DAILY",
+                  "url": "https://flash-briefing-00002.herokuapp.com/",
+                  "vuiPreamble": "From Delight Flash Briefing"
+                },
+                {
+                  "contentType": "TEXT",
+                  "genre": "HEADLINE_NEWS",
+                  "isDefault": false,
+                  "name": "Delight Create Flash Briefing 2",
+                  "updateFrequency": "HOURLY",
+                  "url": "https://flash-briefing-00002.herokuapp.com/flash-briefing-2",
+                  "vuiPreamble": "From Delight Flash Briefing 2"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "manifestVersion": "1.0",
+      "privacyAndCompliance": {
+        "locales": {
+          "en-US": {}
+        }
+      },
+      "publishingInformation": {
+        "automaticDistribution": {
+          "isActive": false
+        },
+        "category": "SPORTS_NEWS",
+        "distributionCountries": [],
+        "isAvailableWorldwide": true,
+        "locales": {
+          "en-US": {
+            "examplePhrases": [
+              "Alexa, play my Flash Briefing",
+              "Alexa, what's my Flash Briefing?"
+            ],
+            "keywords": [],
+            "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e697/a20a4471004a498a91c1bd62444bc6bc/APP_ICON_LARGE?versionId=C95E.NriGbcwMSeEsm0CLYctOH9ekdsb&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210518T093202Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPPL3Q3H6%2F20210518%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7636d91bbc799aa9538a3c39fd318772d31e541804f6fce803bb70373c5538a8",
+            "name": "Delight Create Flash Briefing",
+            "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/736f/e77464afd31b415c8afd8da0fd1c58b7/APP_ICON?versionId=yO0truumnGGQ1uNh.M57Ay9rV3AwhJm4&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210518T093202Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPPL3Q3H6%2F20210518%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=65ab126b3ba9716471171af4e1224aa3b4ae9a2a35d61a0ef8316aee0734a456",
+            "summary": "Flash briefing"
+          }
+        }
+      }
+    }
+  }
+  
